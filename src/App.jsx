@@ -1,14 +1,19 @@
-import reactLogo from './assets/react.svg'
-import { FacturaApp } from './components/FacturaApp'
-import viteLogo from '/vite.svg'
+import { BarraNavegacion } from './components/BarraNavegacion'
+import { FacturaApp } from './FacturaApp'
+
 
 function App() {
   
 
   return (
     <div>
-      <h1>Bienvenido a mi pagina de inicio</h1>
-      <FacturaApp></FacturaApp>
+      <div>
+        <BarraNavegacion></BarraNavegacion>
+      </div>
+      <h1 className='text-center'>Bienvenido a mi pagina de inicio</h1>
+      <div>
+        <FacturaApp></FacturaApp>
+      </div>
     </div>
   )
 }
