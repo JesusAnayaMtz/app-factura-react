@@ -8,8 +8,8 @@ export const DatosProductos = ({productos}) => {
             <thead>
               <tr>
                 <th>Nombre Producto</th>
-                <th>Precio</th>
                 <th>Cantidad</th>
+                <th>Precio</th>
               </tr>
             </thead>
             <tbody className="table-group-divider">
